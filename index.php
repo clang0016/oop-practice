@@ -14,6 +14,8 @@
         $task = new Task;
 
         echo $task->insert();
+        echo $task->delete();
+        echo $task->show();
     ?>
 
 </body>
