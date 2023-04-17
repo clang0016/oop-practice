@@ -8,7 +8,13 @@
 </head>
 <body>
 
-    
+    <?php
+        require_once('classes/task.class.php');
+
+        $task = new Task;
+
+        echo $task->insert();
+    ?>
 
 </body>
 </html>
